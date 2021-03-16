@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11031" started-at="2021-01-19T17:04:56Z" finished-at="2021-01-19T17:05:07Z">
+    <groups>
+    </groups>
+    <test name="App Test" duration-ms="2" started-at="2021-01-19T17:04:56Z" finished-at="2021-01-19T17:04:56Z">
+    </test> <!-- App Test -->
+    <test name="Validating Home page" duration-ms="11030" started-at="2021-01-19T17:04:56Z" finished-at="2021-01-19T17:05:07Z">
+      <class name="WebUiAutomation.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:WebUiAutomation.HomePage@1b2abca6]" name="initialize" is-config="true" duration-ms="4225" started-at="2021-01-19T17:04:56Z" finished-at="2021-01-19T17:05:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:WebUiAutomation.HomePage@1b2abca6]" name="basePageNavigation" duration-ms="4306" started-at="2021-01-19T17:05:01Z" data-provider="getData" finished-at="2021-01-19T17:05:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricted@xyz.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nonrestrictedpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:WebUiAutomation.HomePage@1b2abca6]" name="basePageNavigation" duration-ms="2437" started-at="2021-01-19T17:05:05Z" data-provider="getData" finished-at="2021-01-19T17:05:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricted@xyz.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[restrictedpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:WebUiAutomation.HomePage@1b2abca6]" name="teardown" is-config="true" duration-ms="48" started-at="2021-01-19T17:05:07Z" finished-at="2021-01-19T17:05:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- WebUiAutomation.HomePage -->
+    </test> <!-- Validating Home page -->
+  </suite> <!-- Suite -->
+</testng-results>
